@@ -1,0 +1,45 @@
+body{
+  height: 100vh; /* Ensures the background covers the full height */
+  background-image: url('/Users/vijyantphogat/Desktop/React/my-app/src/background.jpg'); /* Replace with your image file path */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  /* background-repeat: no-repeat; Prevents the image from repeating */
+  background-position: center center; /* Centers the image */
+  color: #ffffff;
+}
+.navbar {
+    background-color: rgb(144, 131, 228) !important;
+    color: rgb(0, 0, 0) !important;
+  }
+  .nav-link{
+    color: #ffffff;
+  }
+.text-white {
+    color: white;
+}
+.about-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .about-section h2 {
+    color: hsl(262, 65%, 7%);
+    margin-top: 20px;
+  }
+  
+  .about-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .about-section p {
+    color: #5a4949;
+    line-height: 1.6;
+  }
